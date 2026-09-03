@@ -1,0 +1,11 @@
+PATIENT/BOT:
+Hi there. I’m calling to check if the downtown office is open on Saturdays, and I also want to know if you accept Blue Cross PPO insurance.
+Thanks for letting me know. So just to confirm, the downtown office isn't open on Saturdays at all, right?
+Alright, got it. And you mentioned that you do accept Blue Cross PPO. Perfect. That’s what I needed to know. Thank you so much for your help.
+Thanks, you too. Take care.
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+This call may be recorded for quality and training purposes. But I español oprima el dos. Thanks for calling Pivot Point Orthopedics, how may I help you today?
+The downtown office at 1234 Recovery Way, Suite 200, Austin is open Monday through Friday but not on Saturdays. We do accept most insurance plans, including Blue Cross PPO. Would you like help with anything else?
+That's correct. The downtown office is not open on Saturdays. It's open Monday through Friday only.
+You're welcome. If you have any other questions or need to schedule an appointment, just let us know. Have a great day!

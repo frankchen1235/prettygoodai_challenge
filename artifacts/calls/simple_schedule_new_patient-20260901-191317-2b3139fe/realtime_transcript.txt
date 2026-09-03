@@ -1,0 +1,15 @@
+PATIENT/BOT:
+Hi, I’d like to make a new patient appointment for next Tuesday afternoon.
+Sure, my name is Maria Lopez, and my date of birth is April 12, 1988.
+Yes, that’s correct. It’s spelled M-A-R-I-A, last name L-O-P-E-Z.
+I’m a new patient, so there’s no record yet. But I can give you my phone number if you need it to put on file.
+Oh, it seems like the call got disconnected. Let me know if you'd like to try again or if you need any more help.
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+This call may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+Can you please provide your full name and date of birth?
+Just to confirm, I have your name as Maria Lopez and your date of birth as April 12, 1988. Is that correct? If so, could you please spell your first and last name for me?
+Would you like to use a phone number to look up your record? If so, please provide the number you have on file with us. If you are not sure, just let me know.
+Thanks for letting me know you're a new patient. I can't create new patient accounts myself, but I'll make sure our clinic support team follows up with you to get your appointment scheduled. I'll document your request now
+I can connect you to our patient support team to help set up your new patient appointment. Please stay on the line while I transfer you. Transferring you now. Thank you.
+Hello, you've reached the Pretty Good AI test line. Goodbye.

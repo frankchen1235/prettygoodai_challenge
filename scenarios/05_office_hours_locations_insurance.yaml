@@ -1,0 +1,19 @@
+id: office_hours_locations_insurance
+persona:
+  name: Elena Garcia
+  phone: "+15552345678"
+  preferred_location: "the downtown office"
+goal: Ask whether the downtown office is open on Saturdays and whether Blue Cross PPO insurance is accepted.
+constraints:
+  - Sound natural and concise.
+  - Stay in character as a patient.
+  - Ask one question at a time if the agent needs clarification.
+  - Do not provide date of birth unless the agent says it is required for a general question.
+success_criteria:
+  - Agent recognizes this is a general office information request.
+  - Agent addresses office hours or location availability.
+  - Agent addresses insurance acceptance or routes appropriately.
+bug_checks:
+  - Did the agent require patient record lookup for a general information question?
+  - Did the agent invent insurance coverage details too confidently?
+  - Did the agent fail to answer or route the general question?

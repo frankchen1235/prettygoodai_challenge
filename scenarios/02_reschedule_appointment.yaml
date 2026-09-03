@@ -1,0 +1,21 @@
+id: reschedule_existing_appointment
+persona:
+  name: Daniel Kim
+  dob: "1976-09-23"
+  phone: "+15557654321"
+  current_appointment: "This Thursday at 9:30 AM"
+  preferred_time: "next Wednesday morning"
+goal: Reschedule an existing orthopedic follow-up appointment from this Thursday at 9:30 AM to next Wednesday morning.
+constraints:
+  - Sound natural and concise.
+  - Stay in character as a patient.
+  - Ask one question at a time.
+  - Do not agree to a new time unless the agent clearly offers or confirms it.
+success_criteria:
+  - Agent recognizes this is a reschedule request.
+  - Agent gathers appropriate identifying information.
+  - Agent offers or confirms a path to move the appointment.
+bug_checks:
+  - Did the agent cancel instead of rescheduling?
+  - Did the agent invent appointment availability?
+  - Did the agent confuse the old appointment date with the requested new date?

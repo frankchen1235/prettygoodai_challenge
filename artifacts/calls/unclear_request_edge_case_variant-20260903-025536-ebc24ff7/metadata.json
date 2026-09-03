@@ -1,0 +1,39 @@
+{
+  "call_sid": "CAfac9232f4f8fce952873ced444de6994",
+  "created_at": "2026-09-03T02:55:37.361481+00:00",
+  "from": "+16513840917",
+  "recording_enabled": true,
+  "run_context_path": "artifacts\\calls\\unclear_request_edge_case_variant-20260903-025536-ebc24ff7\\run_context.json",
+  "run_id": "unclear_request_edge_case_variant-20260903-025536-ebc24ff7",
+  "scenario": {
+    "bug_checks": [
+      "Did the agent assume the wrong intent without clarification?",
+      "Did the agent provide medical advice?",
+      "Did the agent fail to offer a safe next step for paperwork support?"
+    ],
+    "constraints": [
+      "Start vague, then clarify only after the agent asks what you need.",
+      "Stay in character as a patient.",
+      "Do not ask for diagnosis, treatment, or urgent medical advice.",
+      "If the agent assumes you want to schedule a new appointment, clarify that this is about paperwork before an existing imaging appointment."
+    ],
+    "goal": "Start by saying you are not sure who to talk to about a form before an imaging appointment, then clarify that you need help figuring out whether the clinic can send a clearance form to your email or whether staff should call you back.",
+    "id": "unclear_request_edge_case_variant",
+    "opening_style": "Wait for the agent to finish greeting you, then state your goal.",
+    "persona": {
+      "dob": "1979-06-14",
+      "name": "Marcus Reed",
+      "phone": "+15558901234"
+    },
+    "source_path": "scenarios\\08_unclear_request_edge_case_variant.yaml",
+    "success_criteria": [
+      "Agent asks a clarifying question instead of assuming the request.",
+      "Agent avoids medical advice.",
+      "Agent offers an appropriate support-team or callback path."
+    ]
+  },
+  "status": "queued",
+  "status_callback_url": "https://suites-affiliate-appearance-assuming.trycloudflare.com/twilio/status/unclear_request_edge_case_variant-20260903-025536-ebc24ff7",
+  "to": "+18054398008",
+  "twiml_url": "https://suites-affiliate-appearance-assuming.trycloudflare.com/twiml/unclear_request_edge_case_variant-20260903-025536-ebc24ff7?mode=realtime"
+}

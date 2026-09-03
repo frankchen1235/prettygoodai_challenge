@@ -1,0 +1,17 @@
+PATIENT/BOT:
+Hi there. I need to cancel my appointment on Monday at 2:15 PM because I’ve got a work conflict.
+No, this is Priya Shah. I’m calling to cancel my appointment on Monday at 2:15 PM.
+Sure, my date of birth is February 17th, 1991.
+Yes, that’s correct. My first name is spelled P-R-I-Y-A, and my last name is S-H-A-H.
+Sure, my phone number is +1 555-987-6543.
+Yes, that’s correct. I’d like to go ahead and cancel that Monday 2:15 PM appointment.
+Could you double-check the name and date of birth one more time? It's Priya Shah, born February 17th, 1991. I really need to get this appointment canceled.
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+This call may be recorded for quality and training purposes. How may I help you today?
+I see you're calling from the number we have on file. Am I speaking with Maria?
+Please provide your date of birth so I can locate your record.
+Just to confirm, I have your name as Priya Shah and your date of birth as February 17th, 1991. Is that correct? If so, could you please spell your first and last name for me?
+Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, just confirm your first and last name and date of birth for me one more time.
+I have your phone number as 555-987-6543, and your date of birth as February 17, 1991. Is that correct?
+I'm unable to locate your record in our system, so I can't cancel the appointment right now. I can connect you to our patient support team for help. Would you like me to transfer you?

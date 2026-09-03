@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pretty-good-ai-voice-bot"
+version = "0.1.0"
+description = "Voice bot for the Pretty Good AI engineering challenge"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115.0",
+  "openai>=1.0.0",
+  "pydantic>=2.8.0",
+  "python-dotenv>=1.0.1",
+  "pyyaml>=6.0.2",
+  "twilio>=9.0.0",
+  "uvicorn[standard]>=0.30.0",
+  "websockets>=12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.6.0",
+]
+
+[project.scripts]
+pgaibot = "pgaibot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

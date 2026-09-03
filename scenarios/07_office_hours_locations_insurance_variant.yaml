@@ -1,0 +1,19 @@
+id: office_hours_locations_insurance_variant
+persona:
+  name: Nadia Patel
+  phone: "+15556789012"
+  preferred_location: "the north clinic"
+goal: Ask whether the north clinic has any evening hours this week, whether parking is available, and whether Aetna HMO is generally accepted.
+constraints:
+  - Sound natural and concise.
+  - Stay in character as a patient.
+  - Ask one question at a time if the agent needs clarification.
+  - Do not provide date of birth unless the agent says it is required for a general question.
+success_criteria:
+  - Agent recognizes this is a general office information request.
+  - Agent addresses evening hours or location availability.
+  - Agent addresses parking and insurance acceptance or routes appropriately.
+bug_checks:
+  - Did the agent require patient record lookup for a general information question?
+  - Did the agent invent evening hours, parking, or insurance details too confidently?
+  - Did the agent fail to answer or route the general question?

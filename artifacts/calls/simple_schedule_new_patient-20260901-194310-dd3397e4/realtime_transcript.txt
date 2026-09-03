@@ -1,0 +1,18 @@
+PATIENT/BOT:
+Hi, I’d like to schedule a new patient appointment. I’m having lower back pain and I’m hoping for something next Tuesday afternoon.
+Sure, my name is Maria Lopez, and my date of birth is April 12, 1988.
+It’s Maria Lopez. That’s M-A-R-I-A, and Lopez is L-O-P-E-Z. Is that all correct in your system?
+Yes, that’s correct. Now, can we check what times are available next Tuesday afternoon?
+My date of birth is correct, but my phone number is actually +1-555-123-4567. Could you update that, please?
+Yes, that’s the correct phone number. Now, can we go ahead and look at the available appointments for next Tuesday afternoon?
+Oh, I think there might be some confusion. I’m just trying to book that appointment for next Tuesday afternoon. Could you help me with that?
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+This call may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+I can help with that. May I have your full name and date of birth?
+I have your name as Malia Lopez and your date of birth as April 12, 1988, is that correct? If so, please spell your first and last name for me.
+Thank you for spelling that out. Just to confirm, your name is Maria Lopez and your date of birth is April 12, 1988. Is that all correct?
+I have your phone number as 651-384-0917, and your date of birth as April 12, 1988.
+I have your phone number as 555-123-4567, is that correct?
+Transferring you now.
+Hello, you've reached the Pretty Good AI Test Line. Goodbye.

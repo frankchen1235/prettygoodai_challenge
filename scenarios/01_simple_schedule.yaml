@@ -1,0 +1,16 @@
+id: simple_schedule_new_patient
+persona:
+  name: Maria Lopez
+  dob: "1988-04-12"
+  phone: "+15551234567"
+goal: Schedule a new patient appointment for lower back pain next Tuesday afternoon.
+constraints:
+  - Sound natural and concise.
+  - Stay in character as a patient.
+  - Ask one question at a time.
+success_criteria:
+  - Agent offers or confirms an appointment path.
+  - Agent gathers appropriate identifying information.
+bug_checks:
+  - Did the agent schedule outside available hours?
+  - Did the agent invent provider, insurance, or location details?

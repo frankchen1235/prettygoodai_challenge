@@ -1,0 +1,18 @@
+PATIENT/BOT:
+Hi there. I need to cancel my physical therapy appointment on Monday at 2:15 PM because I have a work conflict.
+Actually, my name is Priya Shah. I’m calling to cancel my appointment on Monday at 2:15.
+Sure, my date of birth is February 17, 1991.
+Yes, that's correct. Now, can we go ahead and cancel that Monday 2:15 appointment, please?
+Sure, the phone number I have on file should be +1-555-987-6543.
+Yes, that’s correct. Let’s go ahead and cancel that Monday 2:15 PM appointment, please.
+Oh, it looks like the call ended without getting the appointment canceled. If you still need help, you can always call the office again and provide your details so they can assist you further.
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+I see you're calling from the number we have on file. Was speaking with Maria?
+Please provide your date of birth to locate your chart.
+Just to confirm, I have your name as Priya Shah and your date of birth as February 17, 1991.
+To find your record, can you tell me the phone number you have on file with us? If you're not sure, just let me know.
+I have your phone number as 555-987-6543 and your date of birth as February 17, 1991. Is that correct?
+I'm unable to locate your record in our system, so I can't cancel the appointment right now. I'll connect you to our patient support team for help. Please stay on the line. Transferring you now. Thank you.
+Hello, you've reached the Pretty Good AI test line. Goodbye.

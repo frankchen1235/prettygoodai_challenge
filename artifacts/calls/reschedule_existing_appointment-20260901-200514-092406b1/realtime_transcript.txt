@@ -1,0 +1,16 @@
+PATIENT/BOT:
+Hi there. I need to reschedule my orthopedic follow-up. It’s currently set for this Thursday at 9:30 AM, but I’d really like to move it to next Wednesday morning if possible.
+Sure, my name is Daniel Kim, and my date of birth is September 23, 1976.
+Yes, that’s correct. Now, can we check for availability next Wednesday morning?
+I can give you my number. It's 555-765-4321.
+Yes, that's right. Now could you check next Wednesday morning for me?
+Yes, that’s all correct. Can we find a time next Wednesday morning now?
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+This call may be recorded for quality and training purposes. Para español, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+Can you please tell me your full name and date of birth?
+Just to confirm, I have your name as Daniel Kim and your date of birth as September 23rd, 1976. Is that correct?
+Before I can check the schedule, would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Which would you prefer?
+I have your number as 555-765-4321, is that correct?
+Just to confirm, I have your name as Daniel Kim, date of birth as September 23rd, 1976, and your phone number as 555-765-4321. Is all of that correct?
+I'm unable to access your record right now, so I can't reschedule your appointment. I'll connect you to our patient support team for help. Please stay on the line. Transferring you now. Thank you.

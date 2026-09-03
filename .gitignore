@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+Pretty Good AI — AI Engineering Challenge.docx
+
+artifacts/calls/*/realtime_events.jsonl
+artifacts/calls/*/twilio_events.jsonl

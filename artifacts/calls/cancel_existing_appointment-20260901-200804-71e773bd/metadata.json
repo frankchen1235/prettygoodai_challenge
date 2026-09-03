@@ -1,0 +1,40 @@
+{
+  "call_sid": "CAaea145c9cb7636bfcd17c637614ab2bd",
+  "created_at": "2026-09-01T20:08:05.089671+00:00",
+  "from": "+16513840917",
+  "recording_enabled": true,
+  "run_context_path": "artifacts\\calls\\cancel_existing_appointment-20260901-200804-71e773bd\\run_context.json",
+  "run_id": "cancel_existing_appointment-20260901-200804-71e773bd",
+  "scenario": {
+    "bug_checks": [
+      "Did the agent reschedule instead of cancelling?",
+      "Did the agent fail to confirm which appointment is being cancelled?",
+      "Did the agent claim the cancellation is complete without enough verification?"
+    ],
+    "constraints": [
+      "Sound natural and concise.",
+      "Stay in character as a patient.",
+      "Ask one question at a time.",
+      "If offered rescheduling, politely decline and ask to cancel only."
+    ],
+    "goal": "Cancel an existing physical therapy appointment scheduled for Monday at 2:15 PM because of a work conflict.",
+    "id": "cancel_existing_appointment",
+    "opening_style": "Wait for the agent to finish greeting you, then state your goal.",
+    "persona": {
+      "appointment_time": "Monday at 2:15 PM",
+      "dob": "1991-02-17",
+      "name": "Priya Shah",
+      "phone": "+15559876543"
+    },
+    "source_path": "scenarios\\03_cancel_appointment.yaml",
+    "success_criteria": [
+      "Agent recognizes this is a cancellation request.",
+      "Agent gathers appropriate identifying information.",
+      "Agent confirms cancellation or explains the correct cancellation path."
+    ]
+  },
+  "status": "queued",
+  "status_callback_url": "https://challenge-polls-examinations-ali.trycloudflare.com/twilio/status/cancel_existing_appointment-20260901-200804-71e773bd",
+  "to": "+18054398008",
+  "twiml_url": "https://challenge-polls-examinations-ali.trycloudflare.com/twiml/cancel_existing_appointment-20260901-200804-71e773bd?mode=realtime"
+}

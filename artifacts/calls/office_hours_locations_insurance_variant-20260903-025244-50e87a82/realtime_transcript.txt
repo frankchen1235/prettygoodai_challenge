@@ -1,0 +1,15 @@
+PATIENT/BOT:
+Hi there. I wanted to ask about the north clinic. Do they have any evening hours this week?
+I’m really asking specifically about the north clinic. Could you help me find out if they have evening hours this week?
+I understand. Could you tell me if there’s parking available at your clinic?
+Thanks for letting me know. Now, can you help me find out if the north clinic accepts Aetna HMO insurance?
+I understand. Could you tell me if Pivot Point Orthopedics accepts Aetna HMO insurance?
+I’m just asking a general question right now. I’d like to know if Aetna HMO is generally accepted at your clinic.
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+This call may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+I don't have information about a North Clinic. You've reached Pinnacle Point Orthopedics located at 1234 Recovery Way, Suite 200, Austin. Would you like details about our clinic hours or services?
+I'm only able to provide information about Pivot Point Orthopedics. I don't have access to details for the North Clinic. If you have questions about our clinic or need help with appointments here, I'm happy to assist.
+Yes, there is free patient parking available in the surface lot in front of our building.
+That's not something we offer. I can only provide information about Pivot Point Orthopedics. If you have questions about our clinic or your insurance here, I'm happy to help.
+Pivot Point Orthopedics welcomes new patients and accepts most insurance plans. For specific details about Aetna HMO coverage, I can help you update or check your insurance on file if you're a patient here. Would you like to do that?

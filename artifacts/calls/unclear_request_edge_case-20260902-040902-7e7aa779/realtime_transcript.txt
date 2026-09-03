@@ -1,0 +1,15 @@
+PATIENT/BOT:
+Hi, I need some help before my trip, but I’m not sure if it’s something that needs an appointment or if I could just talk to someone at the clinic.
+Sure thing. I've got this sore knee, and I’m trying to figure out if I should schedule an appointment or if someone at the clinic can help me over the phone.
+Of course. My name is Jordan Taylor, and my date of birth is July 30, 1983.
+Yes, that’s correct, Jordan Taylor, and the date of birth is July 30, 1983.
+I can give you the phone number. It’s +1 555-456-7890.
+Yes, that’s correct. Now, can you help me figure out if I should book an appointment for my sore knee or just talk to someone at the clinic?
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+This call may be recorded for quality and training purposes. How may I help you today?
+I can help with that. Could you tell me a bit more about what you need help with before your trip? That way I can see if it's something we can handle over the phone or if you might need an appointment.
+To see how we can help, we'll need to get your full name and date of birth. Could you please provide those?
+Just to confirm, I have your name as Jordan Taylor and your date of birth as July 30th, 1983. Is that correct? If so, we can move forward. If not, could you please spell your first and last name for me?
+Would you like to use a phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know and I'll confirm your name and date of birth again.
+I have your phone number as 555-456-7890 and your date of birth as July 30, 1983. Is that correct?

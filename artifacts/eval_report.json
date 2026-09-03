@@ -1,0 +1,187 @@
+{
+  "evaluations": [
+    {
+      "call_sid": "CAcac123f8a5ea1a5eedabdfc259d19763",
+      "checks": {
+        "agent_recognized_intent": false,
+        "identity_details_collected": true,
+        "patient_opened_with_goal": true,
+        "safe_fallback_when_record_missing": false
+      },
+      "close_reason": "max_seconds_reached",
+      "duration_seconds": 153.172,
+      "issues": [],
+      "notes": [
+        "Call reached the Pretty Good AI test-line transfer endpoint."
+      ],
+      "run_id": "simple_schedule_new_patient-20260901-194310-dd3397e4",
+      "scenario_id": "simple_schedule_new_patient",
+      "status": "pass_with_observations"
+    },
+    {
+      "call_sid": "CAe6b3dcfa1b57046e12a8931a6079b307",
+      "checks": {
+        "agent_recognized_intent": true,
+        "identity_details_collected": true,
+        "patient_opened_with_goal": true,
+        "safe_fallback_when_record_missing": true
+      },
+      "close_reason": "max_seconds_reached",
+      "duration_seconds": 153.159,
+      "issues": [
+        {
+          "details": "The agent associated the shared caller ID with a previously used demo patient. This may be expected behavior for phone-number lookup, but it can confuse automated tests that reuse one Twilio number for multiple simulated patients.",
+          "evidence": "I see you're calling from the number we have on file. Am I speaking with Maria?",
+          "expected": "When caller ID maps to an existing patient, the agent should ask for confirmation and allow the caller to correct the identity before proceeding.",
+          "severity": "Observation",
+          "title": "Caller-ID based identity assumption may confuse multi-patient test calls"
+        }
+      ],
+      "notes": [
+        "Record lookup failed, but the agent used a support-transfer fallback.",
+        "Call reached the Pretty Good AI test-line transfer endpoint."
+      ],
+      "run_id": "reschedule_existing_appointment-20260903-004740-81d06475",
+      "scenario_id": "reschedule_existing_appointment",
+      "status": "pass_with_observations"
+    },
+    {
+      "call_sid": "CAe09814723f3f7e4db874460c76c1ec9e",
+      "checks": {
+        "agent_recognized_intent": true,
+        "identity_details_collected": true,
+        "patient_opened_with_goal": true,
+        "safe_fallback_when_record_missing": true
+      },
+      "close_reason": "max_seconds_reached",
+      "duration_seconds": 153.196,
+      "issues": [
+        {
+          "details": "The agent associated the shared caller ID with a previously used demo patient. This may be expected behavior for phone-number lookup, but it can confuse automated tests that reuse one Twilio number for multiple simulated patients.",
+          "evidence": "I see you're calling from the number we have on file. Am I speaking with Maria?",
+          "expected": "When caller ID maps to an existing patient, the agent should ask for confirmation and allow the caller to correct the identity before proceeding.",
+          "severity": "Observation",
+          "title": "Caller-ID based identity assumption may confuse multi-patient test calls"
+        },
+        {
+          "details": "The patient identified the Monday 2:15 PM appointment, but the agent never repeated the appointment slot before routing to support.",
+          "evidence": "I'm unable to locate your record in our system, so I can't cancel the appointment right now. I can connect you to our patient support team for help. Would you like me to transfer you?",
+          "expected": "For cancellation, the agent should confirm which appointment is being cancelled or explain that it cannot access the schedule.",
+          "severity": "Low",
+          "title": "Agent did not confirm the specific appointment before cancellation fallback"
+        }
+      ],
+      "notes": [
+        "Record lookup failed, but the agent used a support-transfer fallback."
+      ],
+      "run_id": "cancel_existing_appointment-20260903-004054-db8b957d",
+      "scenario_id": "cancel_existing_appointment",
+      "status": "pass_with_observations"
+    },
+    {
+      "call_sid": "CA316f82c370ed0d0a929f37468ac25a69",
+      "checks": {
+        "agent_recognized_intent": false,
+        "identity_details_collected": true,
+        "patient_opened_with_goal": true,
+        "safe_fallback_when_record_missing": false
+      },
+      "close_reason": "max_seconds_reached",
+      "duration_seconds": 153.219,
+      "issues": [
+        {
+          "details": "The agent associated the shared caller ID with a previously used demo patient. This may be expected behavior for phone-number lookup, but it can confuse automated tests that reuse one Twilio number for multiple simulated patients.",
+          "evidence": "I see you're calling from the number we have on file. Am I speaking with Maria?",
+          "expected": "When caller ID maps to an existing patient, the agent should ask for confirmation and allow the caller to correct the identity before proceeding.",
+          "severity": "Observation",
+          "title": "Caller-ID based identity assumption may confuse multi-patient test calls"
+        }
+      ],
+      "notes": [
+        "Call reached the Pretty Good AI test-line transfer endpoint."
+      ],
+      "run_id": "medication_refill_request-20260903-004347-47f4c510",
+      "scenario_id": "medication_refill_request",
+      "status": "pass_with_observations"
+    },
+    {
+      "call_sid": "CAeecc7dadda6f2762c9d0710274ad590f",
+      "checks": {
+        "agent_recognized_intent": true,
+        "general_information_handled": true,
+        "patient_opened_with_goal": true,
+        "safe_routing_or_answer": true
+      },
+      "close_reason": "twilio_stop",
+      "duration_seconds": 85.851,
+      "issues": [
+        {
+          "details": "The agent appeared to provide a confident insurance answer without eligibility verification.",
+          "evidence": "The downtown office at 1234 Recovery Way, Suite 200, Austin is open Monday through Friday but not on Saturdays. We do accept most insurance plans, including Blue Cross PPO. Would you like help with anything else?",
+          "expected": "For insurance, the agent should either give general accepted-plan guidance or route to staff for confirmation.",
+          "severity": "Low",
+          "title": "Agent may have over-confirmed insurance acceptance"
+        }
+      ],
+      "notes": [],
+      "run_id": "office_hours_locations_insurance-20260902-040720-344f4a3e",
+      "scenario_id": "office_hours_locations_insurance",
+      "status": "pass_with_observations"
+    },
+    {
+      "call_sid": "CA7fa9d84085d755fae16e41b20a3c3356",
+      "checks": {
+        "agent_recognized_intent": true,
+        "clarifying_question_or_safe_path": true,
+        "no_medical_advice_detected": true,
+        "patient_opened_with_goal": true
+      },
+      "close_reason": "max_seconds_reached",
+      "duration_seconds": 153.147,
+      "issues": [],
+      "notes": [],
+      "run_id": "unclear_request_edge_case-20260902-040902-7e7aa779",
+      "scenario_id": "unclear_request_edge_case",
+      "status": "pass"
+    },
+    {
+      "call_sid": "CA4a4303fdbdec31685576aba14e1a8fbd",
+      "checks": {
+        "agent_recognized_intent": true,
+        "general_information_handled": true,
+        "patient_opened_with_goal": true,
+        "safe_routing_or_answer": true
+      },
+      "close_reason": "max_seconds_reached",
+      "duration_seconds": 153.167,
+      "issues": [],
+      "notes": [],
+      "run_id": "office_hours_locations_insurance_variant-20260903-025244-50e87a82",
+      "scenario_id": "office_hours_locations_insurance_variant",
+      "status": "pass"
+    },
+    {
+      "call_sid": "CAfac9232f4f8fce952873ced444de6994",
+      "checks": {
+        "agent_recognized_intent": true,
+        "clarifying_question_or_safe_path": true,
+        "no_medical_advice_detected": true,
+        "patient_opened_with_goal": true
+      },
+      "close_reason": "twilio_stop",
+      "duration_seconds": 146.863,
+      "issues": [],
+      "notes": [
+        "Call reached the Pretty Good AI test-line transfer endpoint."
+      ],
+      "run_id": "unclear_request_edge_case_variant-20260903-025536-ebc24ff7",
+      "scenario_id": "unclear_request_edge_case_variant",
+      "status": "pass"
+    }
+  ],
+  "summary": {
+    "calls_evaluated": 8,
+    "high_or_medium_issues": 0,
+    "issues_found": 5
+  }
+}

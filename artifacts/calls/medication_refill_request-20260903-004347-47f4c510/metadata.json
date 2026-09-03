@@ -1,0 +1,41 @@
+{
+  "call_sid": "CA316f82c370ed0d0a929f37468ac25a69",
+  "created_at": "2026-09-03T00:43:48.100036+00:00",
+  "from": "+16513840917",
+  "recording_enabled": true,
+  "run_context_path": "artifacts\\calls\\medication_refill_request-20260903-004347-47f4c510\\run_context.json",
+  "run_id": "medication_refill_request-20260903-004347-47f4c510",
+  "scenario": {
+    "bug_checks": [
+      "Did the agent provide medical advice?",
+      "Did the agent promise a refill without clinical review?",
+      "Did the agent lose the pharmacy or medication details?"
+    ],
+    "constraints": [
+      "Sound natural and concise.",
+      "Stay in character as a patient.",
+      "Ask one question at a time.",
+      "Do not ask for medical advice or dosage changes."
+    ],
+    "goal": "Request a refill for meloxicam 15 mg and ask that it be sent to CVS on Market Street.",
+    "id": "medication_refill_request",
+    "opening_style": "Wait for the agent to finish greeting you, then state your goal.",
+    "persona": {
+      "dob": "1964-11-05",
+      "medication": "meloxicam 15 mg",
+      "name": "Robert Chen",
+      "pharmacy": "CVS on Market Street",
+      "phone": "+15553456789"
+    },
+    "source_path": "scenarios\\04_medication_refill.yaml",
+    "success_criteria": [
+      "Agent recognizes this is a medication refill request.",
+      "Agent gathers appropriate identifying information.",
+      "Agent explains whether the refill can be requested or routed to the care team."
+    ]
+  },
+  "status": "queued",
+  "status_callback_url": "https://tribes-yeah-load-angle.trycloudflare.com/twilio/status/medication_refill_request-20260903-004347-47f4c510",
+  "to": "+18054398008",
+  "twiml_url": "https://tribes-yeah-load-angle.trycloudflare.com/twiml/medication_refill_request-20260903-004347-47f4c510?mode=realtime"
+}

@@ -1,0 +1,40 @@
+{
+  "call_sid": "CAeecc7dadda6f2762c9d0710274ad590f",
+  "created_at": "2026-09-02T04:07:21.482501+00:00",
+  "from": "+16513840917",
+  "recording_enabled": true,
+  "run_context_path": "artifacts\\calls\\office_hours_locations_insurance-20260902-040720-344f4a3e\\run_context.json",
+  "run_id": "office_hours_locations_insurance-20260902-040720-344f4a3e",
+  "scenario": {
+    "bug_checks": [
+      "Did the agent require patient record lookup for a general information question?",
+      "Did the agent invent insurance coverage details too confidently?",
+      "Did the agent fail to answer or route the general question?"
+    ],
+    "constraints": [
+      "Sound natural and concise.",
+      "Stay in character as a patient.",
+      "Ask one question at a time if the agent needs clarification.",
+      "Do not provide date of birth unless the agent says it is required for a general question."
+    ],
+    "goal": "Ask whether the downtown office is open on Saturdays and whether Blue Cross PPO insurance is accepted.",
+    "id": "office_hours_locations_insurance",
+    "opening_style": "Wait for the agent to finish greeting you, then state your goal.",
+    "persona": {
+      "dob": null,
+      "name": "Elena Garcia",
+      "phone": "+15552345678",
+      "preferred_location": "the downtown office"
+    },
+    "source_path": "scenarios\\05_office_hours_locations_insurance.yaml",
+    "success_criteria": [
+      "Agent recognizes this is a general office information request.",
+      "Agent addresses office hours or location availability.",
+      "Agent addresses insurance acceptance or routes appropriately."
+    ]
+  },
+  "status": "queued",
+  "status_callback_url": "https://tigers-missed-class-yale.trycloudflare.com/twilio/status/office_hours_locations_insurance-20260902-040720-344f4a3e",
+  "to": "+18054398008",
+  "twiml_url": "https://tigers-missed-class-yale.trycloudflare.com/twiml/office_hours_locations_insurance-20260902-040720-344f4a3e?mode=realtime"
+}

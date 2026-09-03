@@ -1,0 +1,40 @@
+{
+  "call_sid": "CA4a4303fdbdec31685576aba14e1a8fbd",
+  "created_at": "2026-09-03T02:52:45.164164+00:00",
+  "from": "+16513840917",
+  "recording_enabled": true,
+  "run_context_path": "artifacts\\calls\\office_hours_locations_insurance_variant-20260903-025244-50e87a82\\run_context.json",
+  "run_id": "office_hours_locations_insurance_variant-20260903-025244-50e87a82",
+  "scenario": {
+    "bug_checks": [
+      "Did the agent require patient record lookup for a general information question?",
+      "Did the agent invent evening hours, parking, or insurance details too confidently?",
+      "Did the agent fail to answer or route the general question?"
+    ],
+    "constraints": [
+      "Sound natural and concise.",
+      "Stay in character as a patient.",
+      "Ask one question at a time if the agent needs clarification.",
+      "Do not provide date of birth unless the agent says it is required for a general question."
+    ],
+    "goal": "Ask whether the north clinic has any evening hours this week, whether parking is available, and whether Aetna HMO is generally accepted.",
+    "id": "office_hours_locations_insurance_variant",
+    "opening_style": "Wait for the agent to finish greeting you, then state your goal.",
+    "persona": {
+      "dob": null,
+      "name": "Nadia Patel",
+      "phone": "+15556789012",
+      "preferred_location": "the north clinic"
+    },
+    "source_path": "scenarios\\07_office_hours_locations_insurance_variant.yaml",
+    "success_criteria": [
+      "Agent recognizes this is a general office information request.",
+      "Agent addresses evening hours or location availability.",
+      "Agent addresses parking and insurance acceptance or routes appropriately."
+    ]
+  },
+  "status": "queued",
+  "status_callback_url": "https://suites-affiliate-appearance-assuming.trycloudflare.com/twilio/status/office_hours_locations_insurance_variant-20260903-025244-50e87a82",
+  "to": "+18054398008",
+  "twiml_url": "https://suites-affiliate-appearance-assuming.trycloudflare.com/twiml/office_hours_locations_insurance_variant-20260903-025244-50e87a82?mode=realtime"
+}

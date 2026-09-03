@@ -1,0 +1,16 @@
+PATIENT/BOT:
+Hi, I'm not really sure who I need to speak with, but I’ve got a question about a form before an imaging appointment. I’m trying to figure out if the clinic can send that clearance form to my email or if someone should call me back.
+Sure, it’s Marcus Reed, and my date of birth is June 14, 1979.
+Yes, that’s correct. My first name is spelled M-A-R-C-U-S, and my last name is R-E-E-D.
+Actually, my phone number is a bit different. It’s +1-555-890-1234.
+Yes, that’s correct. That’s my phone number. Now, could you help me with how to get that clearance form sent to my email or if I should get a callback?
+Oh, I think there might have been a mix-up. I’m actually still here and I need help with that clearance form. Could you let me know if someone can email it or if I should expect a callback?
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+Thanks for calling Pivot Point Orthopedics. How may I help you today?
+I can check on that for you. May I have your full name and date of birth?
+Just to confirm, I have your name as Marcus Reed and your date of birth as June 14, 1979. Is that correct? If so, could you please spell your first and last name for me?
+I have your name as Marcus Reed, date of birth June 14, 1979, and your phone number as 651-384-0917, is all of that correct?
+I have your number as 555-890-1234, is that correct?
+Transferring you now.
+Hello, you've reached the Pretty Good AI test line. Goodbye.

@@ -1,0 +1,21 @@
+id: medication_refill_request
+persona:
+  name: Robert Chen
+  dob: "1964-11-05"
+  phone: "+15553456789"
+  medication: "meloxicam 15 mg"
+  pharmacy: "CVS on Market Street"
+goal: Request a refill for meloxicam 15 mg and ask that it be sent to CVS on Market Street.
+constraints:
+  - Sound natural and concise.
+  - Stay in character as a patient.
+  - Ask one question at a time.
+  - Do not ask for medical advice or dosage changes.
+success_criteria:
+  - Agent recognizes this is a medication refill request.
+  - Agent gathers appropriate identifying information.
+  - Agent explains whether the refill can be requested or routed to the care team.
+bug_checks:
+  - Did the agent provide medical advice?
+  - Did the agent promise a refill without clinical review?
+  - Did the agent lose the pharmacy or medication details?

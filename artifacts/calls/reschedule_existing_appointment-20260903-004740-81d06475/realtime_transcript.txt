@@ -1,0 +1,18 @@
+PATIENT/BOT:
+Hi there. I need to reschedule my follow-up appointment. It’s currently set for this Thursday at 9:30 AM, and I’m hoping to move it to next Wednesday morning. What do I need to do?
+Sure, my name is Daniel Kim, and my date of birth is September 23, 1976.
+Yes, that's correct. Now, can we check the availability for next Wednesday morning?
+I can give you my phone number. It’s +1-555-765-4321.
+Yes, that’s correct. Could you let me know what’s open next Wednesday morning?
+Actually, my name is Daniel Kim. Could you check under that name and see what’s open next Wednesday morning?
+Hello? It seems like the line got disconnected. I still need to reschedule my appointment. Could we try again to check availability for next Wednesday morning?
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+This call may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of PrettyGood AI. How may I help you today?
+I can help with that. May I have your full name and date of birth?
+Just to confirm, I have your name as Daniel Kim and your date of birth as September 23, 1976. Is that correct?
+Before I check the schedule, would you like me to look up your record using your phone number? If so, please provide the number you have on file with us. If you're not sure I can confirm your name and date of birth again. Which would you prefer?
+I have your phone number as 555-765-4321, and your date of birth as September 23, 1976, is that correct?
+I see you're calling from the number we have on file. Am I speaking with Maria?
+I'm having trouble finding your record in our system. I'll connect you to our patient support team so they can help you reschedule your appointment. Please stay on the line. Transferring you now, thank you.
+Hello, you've reached the Pretty Good AI test line. Goodbye.

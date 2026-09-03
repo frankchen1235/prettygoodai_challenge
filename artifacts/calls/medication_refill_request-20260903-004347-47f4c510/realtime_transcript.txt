@@ -1,0 +1,18 @@
+PATIENT/BOT:
+Hi there, I need a refill on my meloxicam 15 mg, and I’d like it sent to the CVS on Market Street.
+No, this is Robert Chen. I'd like to get that refill sent to my pharmacy, CVS on Market Street.
+Sure, it's November 5th, 1964.
+Yes, that's correct. Could we make sure the refill is sent to the CVS on Market Street?
+I’ll give you the phone number. It’s +1 555-345-6789. Now, can we proceed with the refill request?
+Yes, that’s all correct. Now, can we go ahead and process the refill for meloxicam 15 mg to the CVS on Market Street?
+Oh, it sounds like the call got disconnected. If you need anything else, feel free to reach out again. Take care.
+
+PGAI_AGENT_TRANSCRIPTION_DELTAS:
+This call may be recorded for quality and training purposes. How may I help you today?
+I see you're calling from the number we have on file. Am I speaking with Maria?
+Please provide your full date of birth.
+Just to confirm, I have your name as Robert Chen and your date of birth as November 5, 1964. Is that correct?
+To look up your record, would you like to use the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Which would you prefer?
+and your phone number is 555-345-6789 and your date of birth as November 5th, 1964. Is that correct?
+Transferring you now. Thank you.
+Hello, you've reached the pretty good AI test line. Goodbye.

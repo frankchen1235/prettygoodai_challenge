@@ -1,0 +1,20 @@
+id: cancel_existing_appointment
+persona:
+  name: Priya Shah
+  dob: "1991-02-17"
+  phone: "+15559876543"
+  appointment_time: "Monday at 2:15 PM"
+goal: Cancel an existing physical therapy appointment scheduled for Monday at 2:15 PM because of a work conflict.
+constraints:
+  - Sound natural and concise.
+  - Stay in character as a patient.
+  - Ask one question at a time.
+  - If offered rescheduling, politely decline and ask to cancel only.
+success_criteria:
+  - Agent recognizes this is a cancellation request.
+  - Agent gathers appropriate identifying information.
+  - Agent confirms cancellation or explains the correct cancellation path.
+bug_checks:
+  - Did the agent reschedule instead of cancelling?
+  - Did the agent fail to confirm which appointment is being cancelled?
+  - Did the agent claim the cancellation is complete without enough verification?

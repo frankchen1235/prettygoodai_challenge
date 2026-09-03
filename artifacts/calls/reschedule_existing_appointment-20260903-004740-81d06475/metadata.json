@@ -1,0 +1,41 @@
+{
+  "call_sid": "CAe6b3dcfa1b57046e12a8931a6079b307",
+  "created_at": "2026-09-03T00:47:40.781943+00:00",
+  "from": "+16513840917",
+  "recording_enabled": true,
+  "run_context_path": "artifacts\\calls\\reschedule_existing_appointment-20260903-004740-81d06475\\run_context.json",
+  "run_id": "reschedule_existing_appointment-20260903-004740-81d06475",
+  "scenario": {
+    "bug_checks": [
+      "Did the agent cancel instead of rescheduling?",
+      "Did the agent invent appointment availability?",
+      "Did the agent confuse the old appointment date with the requested new date?"
+    ],
+    "constraints": [
+      "Sound natural and concise.",
+      "Stay in character as a patient.",
+      "Ask one question at a time.",
+      "Do not agree to a new time unless the agent clearly offers or confirms it."
+    ],
+    "goal": "Reschedule an existing orthopedic follow-up appointment from this Thursday at 9:30 AM to next Wednesday morning.",
+    "id": "reschedule_existing_appointment",
+    "opening_style": "Wait for the agent to finish greeting you, then state your goal.",
+    "persona": {
+      "current_appointment": "This Thursday at 9:30 AM",
+      "dob": "1976-09-23",
+      "name": "Daniel Kim",
+      "phone": "+15557654321",
+      "preferred_time": "next Wednesday morning"
+    },
+    "source_path": "scenarios\\02_reschedule_appointment.yaml",
+    "success_criteria": [
+      "Agent recognizes this is a reschedule request.",
+      "Agent gathers appropriate identifying information.",
+      "Agent offers or confirms a path to move the appointment."
+    ]
+  },
+  "status": "queued",
+  "status_callback_url": "https://tribes-yeah-load-angle.trycloudflare.com/twilio/status/reschedule_existing_appointment-20260903-004740-81d06475",
+  "to": "+18054398008",
+  "twiml_url": "https://tribes-yeah-load-angle.trycloudflare.com/twiml/reschedule_existing_appointment-20260903-004740-81d06475?mode=realtime"
+}
