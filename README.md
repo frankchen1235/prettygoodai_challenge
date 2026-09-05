@@ -141,6 +141,22 @@ Qualifying calls:
 | `unclear_request_edge_case-20260902-040902-7e7aa779` | 153.1s | `artifacts/calls/unclear_request_edge_case-20260902-040902-7e7aa779/realtime_transcript.txt` | `artifacts/calls/unclear_request_edge_case-20260902-040902-7e7aa779/recording.mp3` |
 | `unclear_request_edge_case_variant-20260903-025536-ebc24ff7` | 146.9s | `artifacts/calls/unclear_request_edge_case_variant-20260903-025536-ebc24ff7/realtime_transcript.txt` | `artifacts/calls/unclear_request_edge_case_variant-20260903-025536-ebc24ff7/recording.mp3` |
 
+## Known Limitations
+
+- The bot needs Twilio and OpenAI credentials to place real calls.
+- A public HTTPS tunnel is required so Twilio can reach the local FastAPI webhook and WebSocket bridge.
+- Demo patients usually do not exist in the Pretty Good AI test system, so record lookup failure is treated as acceptable when the agent gathers identity details and routes to support.
+- All simulated patients reuse one caller ID because the submission instructions require one calling number. This can affect caller-ID based lookup behavior.
+- The evaluator is deterministic and conservative. It is meant to summarize evidence from transcripts, not replace human review of the recordings.
+
+## Iteration Notes
+
+Early Realtime calls showed turn-taking issues: the simulated patient sometimes started speaking before the Pretty Good AI greeting finished, and generated speech could be cut off. I adjusted the bridge to wait for the called agent to speak first, avoid Twilio `clear` messages, add a response delay, and track Twilio `mark` events before scheduling patient replies.
+
+After listening to appointment calls, I noticed the patient sometimes gave timing preference without clearly saying the visit reason. I updated the prompt builder so the first substantive patient response includes the core request and key constraint or preference from the scenario, then reran the appointment scenario and confirmed the opening included lower back pain and next Tuesday afternoon.
+
+I also iterated on evaluation quality after reviewing recordings. Caller-ID based references to Maria were originally flagged as possible identity bugs, but because all calls intentionally reuse one Twilio caller number, I downgraded this to an observation. A transcript-only date-of-birth mismatch was removed after audio review confirmed the agent said June 14 correctly.
+
 ## Development Checks
 
 ```powershell
